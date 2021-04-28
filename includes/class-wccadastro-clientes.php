@@ -73,7 +73,7 @@ class Wccadastro_Clientes {
 			$this->version = '1.0.0';
 		}
 		$this->plugin_name = 'wccadastro-clientes';
-
+	
 		$this->load_dependencies();
 		$this->set_locale();
 		$this->define_admin_hooks();
